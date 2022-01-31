@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-// Scheme - mongoose allows us some uniformity to our documents. Each post can have title and string etc... tags: [String] will contain an array of String. likeCount and createdAt are objects.
+// Schema - mongoose allows us some uniformity to our documents. Each post can have title and string etc... tags: [String] will contain an array of String. likeCount and createdAt are objects.
 const postSchema = mongoose.Schema({
     title: String, 
     message: String, 
